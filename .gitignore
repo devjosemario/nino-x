@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+fala_*.mp3
+fala.mp3
+log_groq.txt
+memory/conversations.json
+memory/user.json
+vosk-model-small-pt-0.3/

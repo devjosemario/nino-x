@@ -1,0 +1,152 @@
+🤖 Nino — Checklist dos próximos passos
+🎙️ 1. Finalizar o sistema de voz
+ Corrigir a sequência da fala — fazer o Nino falar todas as frases sem cortar.
+ Escolher uma voz natural — configurar a melhor voz disponível no Windows/Edge TTS.
+ Melhorar velocidade e entonação — deixar a fala mais natural e parecida com um assistente.
+ Impedir que ele escute a própria voz — pausar o microfone enquanto o Nino estiver respondendo.
+🟡 2. Palavra de ativação
+ Criar modo de espera — deixar o Nino parado até ser chamado.
+ Detectar "Nino" — reconhecer quando você disser o nome dele.
+ Ativar o microfone após "Nino" — começar a ouvir o comando somente depois da palavra de ativação.
+ Ignorar conversas comuns — não executar comandos quando você estiver falando com outra pessoa.
+ Criar resposta "Sim?" — fazer o Nino responder quando chamado.
+ Criar modo de espera novamente — depois de executar o comando, voltar a esperar.
+🧠 3. Melhorar o cérebro/IA
+ Melhorar o prompt — definir melhor personalidade, comportamento e regras do Nino.
+ Criar contexto — permitir que ele entenda que uma pergunta está relacionada à anterior.
+ Usar várias ferramentas em sequência — permitir que uma solicitação execute mais de uma ação.
+ Melhorar tratamento de erros — fazer o Nino explicar quando alguma ferramenta falhar.
+ Criar limites de segurança — impedir que a IA execute ações perigosas automaticamente.
+🧠 4. Memória
+ Criar sistema de memória — criar um mecanismo para guardar informações importantes.
+ Guardar seu nome — permitir que ele saiba como chamar você.
+ Guardar preferências — lembrar coisas que você escolher.
+ Recuperar informações — fazer o Nino consultar o que já foi salvo.
+ Apagar memória — permitir comandos como "esqueça isso".
+ Salvar conversas — guardar histórico das interações.
+ Usar histórico como contexto — fazer a IA considerar conversas anteriores.
+ Criar SQLite — armazenar memória e histórico em um banco de dados local.
+ Criar tabelas — separar usuários, memórias, conversas e configurações.
+🛠️ 5. Mais ferramentas para o computador
+💻 Computador
+ Abrir programas — permitir que o Nino abra aplicativos pelo comando de voz.
+ Fechar programas — permitir fechar aplicativos autorizados.
+ Abrir pastas — abrir diretórios específicos.
+ Criar arquivos — criar arquivos através de comandos.
+ Ler arquivos — permitir que o Nino leia arquivos autorizados.
+ Listar arquivos — mostrar o conteúdo de uma pasta.
+ Localizar arquivos — procurar arquivos no computador.
+ Abrir projetos — abrir automaticamente seus projetos no VS Code.
+ Controlar volume — aumentar, diminuir ou silenciar o áudio.
+ Consultar bateria — informar a bateria do computador.
+ Consultar CPU — informar o uso do processador.
+ Consultar RAM — informar o uso da memória.
+🌐 Internet
+ Abrir sites — abrir páginas através de comandos.
+ Pesquisar na Web — fazer pesquisas automaticamente.
+ Pesquisar notícias — buscar notícias recentes.
+ Consultar informações — encontrar informações específicas.
+ Resumir páginas — transformar páginas longas em resumos.
+ Consultar clima — informar condições e previsão do tempo.
+📝 Produtividade
+ Criar notas — salvar informações rapidamente.
+ Ler notas — recuperar anotações.
+ Criar lembretes — registrar tarefas para lembrar depois.
+ Listar lembretes — mostrar tarefas pendentes.
+ Criar listas — criar listas de tarefas ou itens.
+🔐 6. Segurança
+ Criar permissões — definir exatamente o que o Nino pode fazer.
+ Lista de comandos permitidos — limitar as ferramentas disponíveis.
+ Bloquear comandos perigosos — impedir ações potencialmente prejudiciais.
+ Confirmação para ações importantes — perguntar antes de realizar ações sensíveis.
+ Proteger arquivos — impedir alterações ou exclusões acidentais.
+ Proteger API Keys — garantir que chaves não apareçam no código ou GitHub.
+ Criar logs — registrar o que o Nino executou.
+ Criar interrupção de emergência — permitir desligar o assistente rapidamente.
+👁️ 7. Visão computacional
+ Detectar webcam — conectar a câmera ao Nino.
+ Capturar imagens — permitir tirar/capturar imagens.
+ Ativar/desativar câmera — controlar quando a câmera está sendo utilizada.
+ Analisar imagens — permitir que uma IA interprete imagens.
+ Reconhecer objetos de forma geral — identificar elementos presentes na imagem.
+ Ler textos em imagens — usar OCR para interpretar textos.
+ Analisar documentos — permitir perguntas sobre documentos/imagens.
+ Analisar gráficos — interpretar gráficos e informações visuais.
+🖥️ 8. Interface futurista
+ Criar interface Web — substituir o terminal por uma interface visual.
+ Criar painel principal — centralizar informações do Nino.
+ Criar animação de inicialização — mostrar o Nino iniciando.
+ Indicador central — criar uma representação visual do estado do Nino.
+ Mostrar "Nino ONLINE" — indicar que o sistema está funcionando.
+ Indicador do microfone — mostrar quando ele está ouvindo.
+ Indicador da IA — mostrar quando está processando.
+ Indicador da câmera — mostrar quando a visão está ativa.
+ Histórico de conversa — mostrar suas conversas na tela.
+ Mostrar comandos — exibir ações realizadas.
+ Criar animações — deixar a interface mais dinâmica.
+ Criar modo escuro — criar o visual futurista.
+ Responsividade — fazer a interface funcionar em diferentes tamanhos de tela.
+🐍 9. Organizar o código
+ Separar IA — colocar a lógica do modelo em arquivos próprios.
+ Separar voz — separar microfone e fala.
+ Separar memória — criar módulo próprio para memória.
+ Separar ferramentas — colocar cada grupo de comandos em módulos.
+ Separar segurança — centralizar permissões.
+ Separar configurações — tirar configurações do código principal.
+ Criar requirements.txt — listar tudo que precisa ser instalado.
+ Criar testes — testar cada parte individualmente.
+ Documentar o projeto — explicar como tudo funciona.
+🔌 10. Criar API própria
+ Instalar FastAPI — criar o backend do Nino.
+ Criar servidor — iniciar a API local.
+ Endpoint de conversa — permitir conversar com o Nino pela API.
+ Endpoint de voz — conectar entrada/saída de áudio.
+ Endpoint de comandos — enviar comandos para o sistema.
+ Endpoint de memória — consultar e alterar memória.
+ Autenticação — proteger a API.
+ Conectar React e Python — fazer o Front-End conversar com o cérebro do Nino.
+🧪 11. Testes
+ Testar microfone — garantir que a entrada de áudio funciona.
+ Testar voz — garantir que o Nino consegue responder.
+ Testar Vosk — verificar reconhecimento de português.
+ Testar IA — verificar respostas e ferramentas.
+ Testar ferramentas — garantir que os comandos funcionam.
+ Testar memória — verificar salvamento e recuperação.
+ Testar comandos inválidos — garantir respostas adequadas.
+ Testar sem Internet — garantir que partes locais continuam funcionando.
+ Testar sem API Key — tratar corretamente falta de credenciais.
+ Testar permissões — verificar bloqueios de segurança.
+ Testar comandos perigosos — garantir que não sejam executados automaticamente.
+ Criar testes automatizados — automatizar verificações do sistema.
+📦 12. Preparar para GitHub/portfólio
+ Criar README — explicar o projeto.
+ Explicar instalação — ensinar como executar.
+ Explicar arquitetura — mostrar como os módulos se conectam.
+ Adicionar screenshots — mostrar a interface.
+ Gravar demonstração — mostrar o Nino funcionando.
+ Criar documentação — explicar funcionalidades.
+ Remover .venv — não enviar o ambiente virtual ao GitHub.
+ Limpar arquivos desnecessários — deixar o repositório organizado.
+ Conferir .gitignore — impedir arquivos privados.
+ Conferir .env — garantir que chaves não sejam publicadas.
+ Remover API Keys expostas — trocar qualquer chave que tenha sido publicada.
+ Subir para GitHub — publicar o projeto.
+ Criar página do projeto — apresentar o Nino no portfólio.
+🚀 13. Recursos avançados
+ Conversação contínua — conversar naturalmente sem precisar iniciar cada interação.
+ Memória de longo prazo — lembrar informações relevantes entre sessões.
+ Visão computacional — permitir análise visual.
+ Wake Word — ativar somente quando chamado.
+ Controle do PC — ampliar as ferramentas do computador com segurança.
+ Pesquisa Web — permitir que ele busque informações atualizadas.
+ Automação — combinar várias ações para realizar tarefas.
+ Interface futurista — criar a experiência visual completa.
+ Monitoramento do sistema — acompanhar CPU, RAM, bateria etc.
+ Personalidade configurável — permitir ajustar comportamento e estilo.
+ Múltiplas ferramentas — ampliar o conjunto de capacidades.
+ Sistema de permissões — controlar o que pode ou não executar.
+ Logs — registrar atividades.
+ Histórico — armazenar conversas.
+ Configurações pela interface — controlar o Nino pelo painel.
+ Inicialização automática opcional — iniciar com o Windows, se você quiser.
+ Empacotar para Windows — transformar em um aplicativo executável.
