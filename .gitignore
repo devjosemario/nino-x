@@ -3,7 +3,10 @@
 __pycache__/
 fala_*.mp3
 fala.mp3
+nino_*.mp3
 log_groq.txt
+backups/
 memory/conversations.json
 memory/user.json
+memory/preferences.json
 vosk-model-small-pt-0.3/

@@ -1,0 +1,8 @@
+edge-tts
+faster-whisper
+numpy
+openai
+playsound3
+python-dotenv
+sounddevice
+vosk
